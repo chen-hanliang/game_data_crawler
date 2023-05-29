@@ -25,10 +25,6 @@ header = {
 today = datetime.date.today()
 # 将日期转换为字符串格式
 today_str = today.strftime('%Y-%m-%d')
-# category_list = ['game', 'game_action', 'game_adventure', 'game_arcade', 'game_board', 'game_card', 'game_casino',
-#                  'game_casual', 'game_educational', 'game_music', 'game_puzzle', 'game_racing', 'game_role_playing',
-#                  'game_simulation', 'game_sports', 'game_strategy', 'game_trivia', 'game_word'
-#                  ]
 
 category_list = ['6014', '7001', '7002', '7003', '7004', '7005',
                  '7006', '7009','7018', '7019',  '7011', '7012',
