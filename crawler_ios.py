@@ -54,7 +54,7 @@ mapping = {
 for category in category_list:
     channel = 'ios'
     country = 'US'
-    df = pd.DataFrame(columns=["rank","name", "app_id", "category", 'country', "channel", "rating", "rating_count"], index=[0])
+    df = pd.DataFrame(columns=["rank", "name", "app_id", "category", 'country', "channel", "rating", "rating_count"], index=[0])
 
     url = 'http://app.sensortower-china.com/api/' + channel + '/category_rankings?onset=1&limit=100&category=' + category + '&country=' + country + '&date=' + today_str + '&device=iphone'
     print(url)
